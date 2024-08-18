@@ -1,7 +1,7 @@
 # SyncEd
 ### Ignition Hacks 2024 Submission 
 
-> Bridging the gap between kindergarten to grade five teachers and parents
+> Bridging the gap between kindergarten to grade five teachers and parents online
 
 ## Table of Contents
 - [General Information](General-Information)
