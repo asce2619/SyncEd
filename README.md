@@ -5,12 +5,12 @@
 
 ### Table of Contents
 - [General Information](https://github.com/asce2619/SyncEd#general-information)
-- [Project Inspiration](Project-Inspiration)
-- [What does it do?](What-does-it-do?)
-- [Setup](Setup)
-- [What's next?](What's-next?)
-- [Interface Preview](Interface-Preview)
-- [Authors Info](Authors-Info)
+- [Project Inspiration](https://github.com/asce2619/SyncEd#project-inspiration)
+- [What does it do?](https://github.com/asce2619/SyncEd#what-does-it-do)
+- [Setup](https://github.com/asce2619/SyncEd#setup)
+- [What's next?](https://github.com/asce2619/SyncEd#setup)
+- [Interface Preview](https://github.com/asce2619/SyncEd#interface-preview)
+- [Authors Info](https://github.com/asce2619/SyncEd#authors-info)
 
 ## General Information
 What is Ignition Hacks?
