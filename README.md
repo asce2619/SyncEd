@@ -13,7 +13,7 @@
 - [Authors Info](https://github.com/asce2619/SyncEd#authors-info)
 
 ## General Information
-What is Ignition Hacks?
+We participated in Ignition Hacks' 5th annual hackathon where we spent 36 hours creating an innovative project that solved real-world problems. The event took place from August 16th to 18th, 2024, which included multiple educational workshops along with some fun activities. Our project focused on making education more accessible online to students utilizing business and technology. We also made a three-minute project pitch and demo of the project to present to the judges of the event.
 
 ## Project Inspiration 
 Elementary education is crucial for a child’s learning and development. We’ve recently seen parents concerned that they’re not involved or don't know their child’s learning process. We decided that to bridge the gap between parents and teachers, we would need to build a platform where teachers can update parents on their child’s progress at school and parents can easily contact their child’s teachers. 
