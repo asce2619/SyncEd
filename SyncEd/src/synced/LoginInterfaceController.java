@@ -77,7 +77,6 @@ public class LoginInterfaceController implements Initializable {
         }
         /* Parent login */
         else if(role.equals("Parent")){
-            login = 2;
             String currentDirectory = System.getProperty("user.dir"); 
             File dir = new File(currentDirectory);
 
@@ -87,6 +86,7 @@ public class LoginInterfaceController implements Initializable {
                         String un = readFile.next();
                         String pw = readFile.next();
                         if(username.equals(un) && password.equals(pw)){
+                            login = 2;
                             enter = 1;//meaning parent created
                             p = new ParentAccount(un, pw);//makes temp parent according to file
                             break;
@@ -114,7 +114,7 @@ public class LoginInterfaceController implements Initializable {
                 stage.show();
             }
         }
-        else{
+        else if(login == 0){
             /* Login Error */
             Parent root = FXMLLoader.load(getClass().getResource("LoginError.fxml"));
             Stage stage = new Stage();
