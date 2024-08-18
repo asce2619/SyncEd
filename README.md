@@ -36,7 +36,7 @@ For future improvements of SyncEd...
 ![parentsPage](https://github.com/user-attachments/assets/4afea0d4-8460-4cff-b0d1-6d706fff3031)
 
 ## Authors Info
-* Abesa Sivananthanathan
-* Ilakiya Pakeerathan
-* Jannis Saini
-* Riya Dave
+* Riya Dave: riyadave250@gmail.com
+* Jannis Saini: jannis.saini@gmail.com
+* Ilakiya Pakeerathan: ilakiya.pakeer@gmail.com
+* Abesa Sivananthanathan: reve4ffb@gmail.com
