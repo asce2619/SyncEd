@@ -4,7 +4,7 @@
 > Bridging the gap between kindergarten to grade five teachers and parents online!
 
 ## Table of Contents
-- [General Information](general-information)
+- [General Information](https://github.com/asce2619/SyncEd/edit/main/README.md#general-information)
 - [Project Inspiration](Project-Inspiration)
 - [What does it do?](What-does-it-do?)
 - [Setup](Setup)
