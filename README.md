@@ -33,6 +33,7 @@ For future improvements of SyncEd...
 
 ## Interface Preview
 Youtube Video of Demo: https://www.youtube.com/watch?v=H0wXMuHghvc
+
 ![frontPage](https://github.com/user-attachments/assets/6b54aa6b-c294-471d-aa7a-c2c407b43879)
 ![loginPage](https://github.com/user-attachments/assets/0a7e386f-7f42-4857-a79d-c0f3bfb7c685)
 ![teachersPage](https://github.com/user-attachments/assets/670c1d9b-a9d6-49c4-8dbe-0a6bc60e5748)
