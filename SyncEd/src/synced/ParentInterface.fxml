@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="parentPage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #98e1f5;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="synced.ParentInterfaceController">
+   <children>
+      <Button layoutX="529.0" layoutY="362.0" mnemonicParsing="false" onAction="#logoutButton" text="Logout" />
+      <TabPane prefHeight="360.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Home Page">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Ellipse layoutX="460.0" layoutY="185.0" radiusX="126.0" radiusY="139.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+                           <fill>
+                              <LinearGradient endX="1.0" endY="1.0" startX="0.9099526066350712" startY="0.9478672985781991">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="0.4385964870452881" green="0.7014619708061218" blue="0.9473684430122375" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </LinearGradient>
+                           </fill>
+                           <effect>
+                              <DropShadow blurType="GAUSSIAN" height="23.93" radius="11.465" width="23.93" />
+                           </effect>
+                        </Ellipse>
+                        <Text fill="#027be5" layoutX="151.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome Parent!">
+                           <font>
+                              <Font name="Broadway" size="32.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="40.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Information">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <TextField editable="false" layoutX="123.0" layoutY="84.0" text="Jannis Saini" />
+                        <Text layoutX="51.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Teacher:">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font></Text>
+                        <TextField editable="false" layoutX="123.0" layoutY="189.0" text="Ms. Smith" />
+                        <Text layoutX="50.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font></Text>
+                        <Text layoutX="40.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Class Information">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="51.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font></Text>
+                        <TextField editable="false" layoutX="123.0" layoutY="118.0" text="jannis14" />
+                        <Text layoutX="51.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Grade:">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font></Text>
+                        <TextField editable="false" layoutX="123.0" layoutY="263.0" text="Two" />
+                        <Text layoutX="51.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact:">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font></Text>
+                        <TextField editable="false" layoutX="123.0" layoutY="226.0" text="smith11@student.on.ca" />
+                        <Text layoutX="51.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Room:">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font></Text>
+                        <TextField editable="false" layoutX="123.0" layoutY="301.0" text="117" />
+                        <ImageView fitHeight="143.0" fitWidth="192.0" layoutX="367.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@z.parentlogo.png" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="402.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Navigate through the window to learn more about your child's progress and class plans." textAlignment="CENTER" wrappingWidth="121.24609375">
+                           <font>
+                              <Font name="Bell MT Bold" size="12.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+          <Tab onSelectionChanged="#dayPlanTab" text="Day Plan">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <TextArea fx:id="parentDayPlan" editable="false" layoutX="10.0" layoutY="98.0" prefHeight="235.0" prefWidth="581.0" />
+                        <Text fill="#027be5" layoutX="211.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Day Plan">
+                           <font>
+                              <Font name="Broadway" size="36.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="14.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Attendance:">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <TextField alignment="CENTER" editable="false" layoutX="127.0" layoutY="61.0" text="Present" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab onSelectionChanged="#messagesTab" text="Messages">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Text fill="#027be5" layoutX="213.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Messages">
+                           <font>
+                              <Font name="Broadway" size="36.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="54.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Teacher Announcements">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <TextArea fx:id="teachersMessage" editable="false" layoutX="30.0" layoutY="83.0" prefHeight="252.0" prefWidth="267.0" />
+                        <Text layoutX="307.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Here are the end of day notes from the classroom teacher. Feel free to reply to the thread!" textAlignment="CENTER" wrappingWidth="278.58984375">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Text>
+                        <Button layoutX="419.0" layoutY="288.0" mnemonicParsing="false" onAction="#parentsFeedback" text="Submit" />
+                        <TextArea fx:id="parentsReply" layoutX="306.0" layoutY="165.0" prefHeight="117.0" prefWidth="280.0" />
+                     </children></AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
