@@ -4,13 +4,13 @@
 > Bridging the gap between kindergarten to grade five teachers and parents
 
 ## Table of Contents
-* [General Information](General-Information)
-* [Project Inspiration](Project-Inspiration)
-* [What does it do?](What-does-it-do?)
-* [Setup](Setup)
-* [What's next?](What's-next?)
-* [Interface Preview](Interface-Preview)
-* [Authors Info](Authors-Info)
+- [General Information](General-Information)
+- [Project Inspiration](Project-Inspiration)
+- [What does it do?](What-does-it-do?)
+- [Setup](Setup)
+- [What's next?](What's-next?)
+- [Interface Preview](Interface-Preview)
+- [Authors Info](Authors-Info)
 
 ## General Information
 What is Ignition Hacks?
